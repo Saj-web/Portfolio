@@ -4,6 +4,12 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+function togglbenu() {
+  const menuLinks = document.querySelector('.menu-links');
+  const hamburgerIcon = document.querySelector('.hamburger-icon');
+  menuLinks.classList.toggle('open');
+  hamburgerIcon.classList.toggle('open');
+}
 const words = ['Full-stack Developer', 'Graphic Designer'];
 const typingAnimation = document.getElementById('typing-animation');
 let currentWordIndex = 0;
